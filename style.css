@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway:wght@300&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+    height: 4rem;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+header a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    
+}
+header p{
+    font-size: 23px;
+    text-align: center;
+}
+header span{
+    color: crimson;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+nav ul  :hover{
+    color: rgb(232, 156, 169);
+    transition: 0.5s;
+}
+nav{
+    height: 2.5rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    text-align: center;
+}
+@media(max-width:1320px){
+    nav ul:nth-child(2)
+{
+  margin-left: 60%;  
+}
+}
+@media(max-width:720px){
+    nav ul:nth-child(2)
+{
+  margin-left: 40%;  
+}
+}
+@media(max-width:500px){
+    nav ul:nth-child(2)
+{
+  margin-left: 13%;  
+}
+}
+footer{
+    height: 4rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 5px;
+    letter-spacing: 1.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer p{
+    color: white;
+}
+footer span {
+    color: crimson;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+button{
+    padding:  15px 20px;
+    color: azure;
+    background: rgb(222, 4, 164);
+    text-align: center;
+    border: 1px  solid lightgray;
+    outline: none;
+    border-radius: 8px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover{
+    background-color: rgb(174, 46, 71);
+    color: beige;
+    transition: 0.2s;
+}
+#loc{
+    color: lightgray;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgb(178, 46, 101),rgb(220, 35, 60),rgb(168, 59, 95));
+    height: calc(100vh - 8rem);
+    width: 100%;
+
+}
+#info{
+    color: lightgray;
+    font-size: 20px;
+    margin: 30px auto 80px auto;
+    letter-spacing: 1.5px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 60px auto 30px auto;
+}
+.btn p{
+    color: azure;
+}
+#instructions p{
+    color: lightgray;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
